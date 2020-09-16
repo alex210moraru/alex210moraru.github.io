@@ -47,11 +47,24 @@ main {
     /* min-height: calc(100vh - 211px - 58px); */
 }
 
-.column {
+.column1 {
   float: left;
   width: 33.33%;
   padding: 2px;
 }
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 2px;
+}
+
+.column3 {
+  float: right;
+  width: 33.33%;
+  padding: 2px;
+}
+
 
 /* Clearfix (clear floats) */
 .row::after {
