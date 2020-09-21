@@ -49,12 +49,26 @@ main {
 }
 
 .pictures {
-  text-align: center;
+    text-align: center;
     width: 100%;
     max-width: 2000px;
     padding: 20px;
     margin: auto;
     background: #A9A9A9;
+}
+
+.pictures img {
+  vertical-align: middle;
+}
+
+.pictures img.center {
+  width: 30%;
+  height: 30%;
+}
+
+.pictures img.side{
+  width: 30%;
+  height: 40%;
 }
 
 .social-nav {
